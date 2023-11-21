@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Pražský hrad",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },
+    {
+        "id": 2,
+        "name": "Kostel Sv. Mikuláše (na Malé straně)",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },
+    {
+        "id": 3,
+        "name": "Karlův most",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },
+    {
+        "id": 4,
+        "name": "Klementinum",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },  
+    {
+        "id": 5,
+        "name": "Rudolfinum",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },
+    {
+        "id": 6,
+        "name": "Orloj",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },
+    {
+        "id": 7,
+        "name": "Chrám sv. Víta",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },
+    {
+        "id": 8,
+        "name": "Tančící dům",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },
+    {
+        "id": 9,
+        "name": "Staroměstské náměstí",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    },
+    {
+        "id": 10,
+        "name": "Týnský chrám",
+        "description": "lorem5",
+        "image": "http://localhost:4000/assets/"
+    }
+    
+]
+ 
