@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    background-color: #C9514B;
+    text-align: left;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .container--hamburger-menu {
+    padding: 20px;
+  }
+  
