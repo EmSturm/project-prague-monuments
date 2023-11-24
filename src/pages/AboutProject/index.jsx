@@ -36,7 +36,6 @@ export const AboutProject = () => {
           </p>
           <h3>Mentoři: Filip Jirsák a Nela Letochová</h3>
         </div>
-        <div className="about--img"></div>
       </div>
       <Footer></Footer>
     </>
