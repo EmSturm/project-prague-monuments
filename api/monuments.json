@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Pražský hrad",
-        "description" : "Pražský hrad, umístěný na vyvýšeném kopci nad řekou Vltavou, je největším obydleným hradem na světě. Hradní komplex zahrnuje Katedrálu sv. Víta, Starý královský palác, Baziliku sv. Jiří a Zlatou uličku. Hrad byl založen již ve 14. století a sloužil jako sídlo českých králů, císařů a prezidentů. Na Pražském hradě můžete navštívit krásnou katedrálu sv. Víta, která je jednou z nejvýznamnějších památek v České republice.",
+        "name": "Národní divadlo",
+        "description" : "Lorem5",
         "image": "http://localhost:4000/assets/"
     },
     {
@@ -19,8 +19,8 @@
     },
     {
         "id": 4,
-        "name": "Klementinum",
-        "description": "Klementinum bylo založeno v roce 1556 jezuity a sloužilo jako jezuitská kolej, současně s univerzitními funkcemi. Během 17. století byla ke Klementinu přistavěna Klementinská knihovna, která se stala významným centrem vzdělání a knižní kultury. Klementinská knihovna vyniká bohatými sbírkami starých tisků, map a rukopisů, včetně významného Klementinského misálu. V roce 1722 byla na Klementinu postavena barokní astronomická věž, která sloužila k astronomickým pozorováním a je stále dominantním prvkem budovy. V průběhu let prošlo Klementinum několika rekonstrukcemi a změnami využití, a dnes slouží jako kulturní a vzdělávací centrum, včetně koncertní síně a Národního muzea.",
+        "name": "Národní muzeum",
+        "description": "Lorem5",
         "image": "http://localhost:4000/assets/"
     },  
     {
@@ -49,14 +49,14 @@
     },
     {
         "id": 9,
-        "name": "Staroměstské náměstí",
-        "description": "Staroměstské náměstí je jedno z nejvýznamnějších historických míst v Praze, nacházející se ve Starém Městě. Náměstí vzniklo již ve 12. století a stalo se centrem obchodu, obydlí a veřejného života v Praze. V průběhu staletí sloužilo náměstí jako místo pro trhy, korunovační obřady, veřejné popravy a různé kulturní akce. Na náměstí se nachází několik významných historických budov, včetně Staroměstské radnice s Orlojem, Kostela Matky Boží před Týnem a Kostela svatého Mikuláše. V roce 1419 zde proběhl tragický první pražský defenestrace, což bylo jedno z klíčových událostí vedoucích k husitským válkám. Během komunistické éry bylo náměstí místem shromažďování a protestů, včetně klíčových událostí v roce 1989, které vedly k pádu komunistického režimu v Československu.",
+        "name": "Obecní dům",
+        "description": "lorem5",
         "image": "http://localhost:4000/assets/"
     },
     {
         "id": 10,
-        "name": "Týnský chrám",
-        "description": "Týnský chrám, oficiálně Kostel Matky Boží před Týnem, je monumentální gotický kostel na Staroměstském náměstí v Praze. Stavba chrámu byla zahájena ve 14. století a dokončena až v 16. století, přičemž se stala jedním z nejvýznamnějších kostelů v Praze. Týnský chrám je známý svou impozantní věží, vysokou 80 metrů, a dvěma věžemi na západním průčelí, které jsou jedním z charakteristických znaků Pražského panoramatu. Interiér chrámu zdobí bohaté barokní a renesanční prvky, včetně oltářů a náhrobků významných osobností. Chrám byl dějištěm klíčových historických událostí, včetně jedné z pražských defenestrací v roce 1618, což zahájilo třicetiletou válku. V době reformace se stal Týnský chrám jedním z center české reformace a sídlem husitských bohoslužeb. V interiéru chrámu se nachází původní varhany, které jsou považovány za jedny z nejvýznamnějších v Evropě. Kostel je dedikován Panně Marii a je považován za národní kulturní památku České republiky.",
+        "name": "Petřínská rozhedna",
+        "description": "Loorem5",
         "image": "http://localhost:4000/assets/"
     }
     

@@ -9,15 +9,17 @@ export const HomePage = () => {
     <>
       <Header></Header>
 
+      
       <div className="hero--left-col">
+      <Link to="/">
+        <div className="logo"></div>
+      </Link>
         <h1>Interaktivně za památkami</h1>
         <div className="about">
           <div className="about--text">
             <p>
               <span className="highlight">
-                Interaktivní webové průvodce pražskými památkami,
-              </span>{" "}
-              <span className="highlight">
+                Interaktivní hra drag and drop a průvodce pražskými památkami. <br />
                 Inovativní a zábavný způsob, jak poznat architekturu a kulturní
                 dědictví tohoto města.
               </span>{" "}
@@ -34,9 +36,9 @@ export const HomePage = () => {
             </div>
           </div>
         </div>
-        <Footer></Footer>
+        
       </div>
-      
+      <Footer></Footer>
     </>
     
   );

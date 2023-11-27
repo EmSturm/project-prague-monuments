@@ -1,18 +1,19 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
 
 
 
 body {
   margin: 0%;
   width: 100vw;
-  height: 100vh;
   background-image: linear-gradient(to bottom, #FFEFD2, #FFFAF0);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  height: auto;
 }
 
 /* header */
@@ -21,7 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  background-color: #BB3C1C;
+  background-color: #CB6F03;
   text-align: left;
   border-radius: 0 0 20px 20px;
 }
@@ -30,6 +31,27 @@ header {
   padding: 20px;
 }
 
+.hero--left-col {
+ 
+  padding: 48px;
+  /* margin-left: 30px; */
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  
+}
+
+
+.logo {
+  margin: 20px;
+  background-image: url(./img/logo_prague.png);
+  height: 191px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 75px;
+
+}
 /* main */
 
 main {
@@ -40,21 +62,21 @@ main {
 
 
 h1 {
-  color: #C9514B;
+  color: #A75A00;
+  font-family: STIX two text, sans-serif, 'Times New Roman', Times, serif;
+  font-size: 46px;
+  margin: 12px;
   /* font-weight: 20px; */
-}
-
-.about {
-  color: #4D4441;
 }
 
 /* buttons */
 .btns-container {
-  margin: 20px 0;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  padding: 15px;
 
 }
 
@@ -68,6 +90,9 @@ h1 {
   margin: 10px 0;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
+  background-color: #CB6F03;
+  color:  #FFEFD2;
+
 
 }
 
@@ -77,7 +102,7 @@ h1 {
 }
 
 .bth--monuments {
-  background-color: #C9514B;
+  background-color: #485E9B;
   color: #FFEFD2;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
@@ -95,14 +120,51 @@ h1 {
 
 /* media queries */
 
+@media (min-width: 326px) and (max-width: 576px) {
+  .logo {
+    margin: 20px;
+    background-image: url(./img/logo_prague.png);
+    height: 191px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  
+  }
+
+  .hero--left-col {
+    display: flex;
+    flex-direction: column; 
+   
+  }
+}
+
 /* tablets */
 @media (min-width: 576px) and (max-width: 768px) {
   .btns-container {
     flex-direction: row;
   }
 
+  .hero--left-col {
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+   
+   
+  }
+
 }
 
+@media (min-width: 820px) and (max-width: 900px) {
+
+  .hero--left-col {
+    padding: 48px;
+    /* margin-left: 30px; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+}
 /* laptops */
 @media (min-width: 900px) and (max-width: 992px) {
   main {
@@ -113,19 +175,15 @@ h1 {
   }
 
   .hero--left-col {
-    width: 50%;
     padding: 20px;
+    height: 100vh;
 
   }
 
-  h1 {
-    font-size: 40px;
-  }
-
-  .btns-container {
+  /* .btns-container {
     flex-direction: row;
     justify-content: flex-start;
-  }
+  } */
 
   .btn {
     margin-right: 10px;
@@ -159,7 +217,7 @@ h1 {
 
   .btns-container {
     flex-direction: row;
-    justify-content: flex-start;
+   
   }
 
   .btn {
@@ -168,17 +226,11 @@ h1 {
     width: 200px;
   }
 
-  .hero--left-col {
-    width: 50%;
-    padding: 20px;
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-  }
 
 
   .hero--right-col {
     width: 50%;
+    height: 100vh;
   }
 
 
@@ -189,14 +241,3 @@ h1 {
 
 }
 
-.logo {
-  margin: 20px;
-  background-image: url(./../HomePage/img/logo.png);
-  width: 100px;
-  height: 100px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: black;
-
-}

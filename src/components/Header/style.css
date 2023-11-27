@@ -1,8 +1,8 @@
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: 0;
-    background-color: #C9514B;
+    background-color: #CB6F03;
     text-align: left;
     border-radius: 0 0 20px 20px;
   }
@@ -11,3 +11,15 @@ header {
     padding: 20px;
   }
   
+  .logo__header {
+    margin: 27px;
+    background-image: url(./img/logo.png);
+    width: 90px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center;
+    
+  
+  }

@@ -43,7 +43,7 @@
   .hamburger-nav {
     color: #FFEFD2;
     text-align: left;
-    background-color: #C9514B;
+    background-color: #CB6F03;
     position: absolute;
     top: 40px;
     right: 0;
@@ -77,6 +77,7 @@
   @media (min-width: 992px) {
     .hamburgerMenu {
       display: none;
+      
 
     }
   }
